@@ -14,6 +14,10 @@ public class CheckOddEven {
 		if(number%2 == 0){
 			System.out.println("This is Evne");
 		}
+		else if (number == 0)
+		{
+			System.out.println("This is 0");
+		}
 		else
 			System.out.println("This is Odd");
 		
